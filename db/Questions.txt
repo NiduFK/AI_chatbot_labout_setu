@@ -1,0 +1,8 @@
+['I am a Carpenter. Can you help me with it?',
+'I need to get a job in city as a Carpenter. Can you get me ?',
+'I can do farming. But I need extra pesticides. Where do I get them ?',
+'I work as a waiter, and I need a hotel. Can you do that?',
+'I need a job to build houses, and I can do any type of contruction. Where can I get it?',
+'I was kicked from my job as watchman due to corona, and I need a job as a watchman anywhere. How to get?',
+'YES']
+

@@ -1,0 +1,8 @@
+['Yeah sure. I will surely if I know. Do you need a job in a city? Type YES to agree',
+'There are slots available in few places. Do you want me to contact the contract person? Type YES to agree',
+'They will be available in nearest shop from your location. Would you like me to contact the contract person? Type YES to agree',
+'Yes I will try to convey this to the department and get you a job soon. Thank you',
+'Sure. Your details have been mailed to the person in charge. They will contact you soon. Thank you',
+'I'm so sorry to hear that. We will try our best to get jobs for everyone as soon as possible. Thank you',
+'Ok I have conveyed this message to the head of our department and they will call you soon. Thank you'
+]
