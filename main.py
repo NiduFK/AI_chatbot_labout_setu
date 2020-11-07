@@ -47,7 +47,7 @@ def send_gmail():
 
 def setdb():
 
-    #Reading from already existing question and answers
+    # Reading from already existing question and answers
     question_file = open("Questions.txt", "r")
     answer_file = open("Answers.txt", "r")
     answer = answer_file.read().split(',')
@@ -57,7 +57,7 @@ def setdb():
     connection = pymysql.connect(host="localhost", user="root", passwd="", database="labour_setu_db")
     cursor = connection.cursor()
 
-    #Storing the newly read question & answer lists to db
+    # Storing the newly read question & answer lists to db
     # sql = "INSERT INTO chatbot_table (id, question, answer) VALUES (%s, %s, %s)"
 
     # cursor.execute(sql, val)
@@ -83,7 +83,7 @@ def setdb():
 
     for word in user_question_keywords:
         cursor.execute('select answer from chatbot_table where question like "%' + word + '%";')
-        db_value = cursor.fetchone()
+        db_value = cursor.fetchall()
         if not db_value:
             pass
         else:
